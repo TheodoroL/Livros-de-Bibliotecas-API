@@ -52,7 +52,7 @@ server.put("/livros/:id", async(request, response )=>{
     
 })
 
-// aqui você só mudao titulo
+// aqui você só muda o titulo
 server.put("/livros/title/:id", async(resquest, response)=>{
     const livrosid = resquest.params.id
     const titulo  = resquest.body    
